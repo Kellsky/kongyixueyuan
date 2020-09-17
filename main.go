@@ -7,10 +7,10 @@ package main
 import (
 	"os"
 	"fmt"
-	"github.com/kevin-hf/kongyixueyuan/sdkInit"
-	"github.com/kevin-hf/kongyixueyuan/service"
-	"github.com/kevin-hf/kongyixueyuan/web"
-	"github.com/kevin-hf/kongyixueyuan/web/controller"
+	"github.com/kellsky/kongyixueyuan/sdkInit"
+	"github.com/kellsky/kongyixueyuan/service"
+	"github.com/kellsky/kongyixueyuan/web"
+	"github.com/kellsky/kongyixueyuan/web/controller"
 )
 
 const (
