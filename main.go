@@ -24,7 +24,7 @@ func main() {
 	initInfo := &sdkInit.InitInfo{
 
 		ChannelID: "kevinkongyixueyuan",
-		ChannelConfig: os.Getenv("GOPATH") + "/src/github.com/kevin-hf/kongyixueyuan/fixtures/artifacts/channel.tx",
+		ChannelConfig: os.Getenv("GOPATH") + "/src/github.com/kellsky/kongyixueyuan/fixtures/artifacts/channel.tx",
 
 		OrgAdmin:"Admin",
 		OrgName:"Org1",
@@ -32,7 +32,7 @@ func main() {
 
 		ChaincodeID: SimpleCC,
 		ChaincodeGoPath: os.Getenv("GOPATH"),
-		ChaincodePath: "github.com/kevin-hf/kongyixueyuan/chaincode/",
+		ChaincodePath: "github.com/kellsky/kongyixueyuan/chaincode/",
 		UserName:"User1",
 	}
 
