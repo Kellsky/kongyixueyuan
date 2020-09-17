@@ -5,7 +5,7 @@ package controller
 
 import (
 	"net/http"
-	"github.com/kevin-hf/kongyixueyuan/service"
+	"github.com/kellsky/kongyixueyuan/service"
 )
 
 type Application struct {
