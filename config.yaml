@@ -58,7 +58,7 @@ client:
 
   # Root of the MSP directories with keys and certs.
   cryptoconfig:
-    path: ${GOPATH}/src/github.com/kongyixueyuan.com/kongyixueyuan/fixtures/crypto-config
+    path: ${GOPATH}/src/github.com/kellsky/kongyixueyuan/fixtures/crypto-config
 
   # Some SDKs support pluggable KV stores, the properties under "credentialStore"
   # are implementation specific
